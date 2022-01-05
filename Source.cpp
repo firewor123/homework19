@@ -5,10 +5,7 @@ class Animal
 private:
 
 public:
-	virtual void voice()
-	{
-
-	}
+	virtual void voice() = 0;
 };
 
 class Dog : public Animal
